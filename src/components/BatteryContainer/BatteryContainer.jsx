@@ -13,11 +13,11 @@ class BatteryContainer extends Component {
 	}
 
 	componentDidMount() {
-    register(this.updateBattery);
+    	register(this.updateBattery);
 	}
   
 	componentWillUnmount() {
-    unregister(this.updateBattery);
+    	unregister(this.updateBattery);
 	}
 
 	render() {
